@@ -1,0 +1,349 @@
+nav {
+    background-color: #f8eeee;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.imglogo {
+    max-width: 40px;
+}
+
+.bold-link {
+    font-weight: bold;
+}
+
+nav a {
+    color: rgb(36, 33, 33);
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.background-container {
+    position: relative;
+    background-image: url('PNG/temp/img02.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+
+.data {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.img3 {
+    max-width: 40%;
+
+}
+
+.Follow {
+    background-color: rgb(234, 234, 72) !important;
+    color: black !important;
+    border-radius: 30px !important;
+    height: 70px !important;
+    width: 140px !important;
+}
+
+.last-post {
+    border-radius: 30px !important;
+    height: 70px !important;
+    width: 140px !important;
+
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.readd {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    border-radius: 30px !important;
+}
+
+.card-img-top {
+    border-radius: 30px !important;
+}
+
+.card-horizontal {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-horizontal img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+
+.card-body-horizontal {
+    flex: 1;
+    padding-top: 5px;
+}
+
+
+.card-horizontal .btn {
+    margin-bottom: 10px;
+}
+
+
+.hor-card {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-shadow: blanchedalmond;
+}
+
+
+
+.link-container {
+    display: flex;
+}
+
+
+.background-con {
+    background-image: url('PNG/temp/img02.jpg');
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.centered-container {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.dot {
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 10px;
+    margin-top: 40px;
+}
+
+
+.red {
+    opacity: 1;
+    background-color: yellow;
+    margin-bottom: 40px;
+}
+
+.blue {
+    opacity: 1;
+    background-color: blue;
+    margin-bottom: 40px;
+}
+
+.green {
+    opacity: 1;
+    background-color: red;
+    margin-bottom: 40px;
+}
+
+.yellow {
+    opacity: 1;
+    background-color: orange;
+    margin-bottom: 40px;
+}
+
+.purple {
+    opacity: 1;
+    background-color: aqua;
+    margin-bottom: 40px;
+}
+
+.years {
+    opacity: 1;
+    display: flex;
+}
+
+.compo {
+    opacity: 1;
+    height: 200px;
+}
+
+
+
+.see {
+    margin-top: 90px !important;
+    /* background-color: rgb(234, 234, 72) !important; */
+    color: whitesmoke !important;
+    border-radius: 30px !important;
+    height: 70px !important;
+    width: 140px !important;
+    opacity: 0.8;
+}
+
+
+.sponcers-con {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+
+
+.cardtt {
+    margin-left: 15px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.cardtt img {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.cardtt .card-bodyyy {
+    padding-top: 15px;
+}
+
+
+.cardtt p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.Sponsors-card {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+
+.become-sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.become-sponsor .btn {
+
+    background-color: yellow !important;
+    margin-top: 15px !important;
+    /* background-color: rgb(234, 234, 72) !important; */
+    color: black !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    /* width: 140px !important; */
+    opacity: 0.8;
+}
+
+
+.navbarr {
+    margin-top: 20px;
+    background-color: #0c122e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+
+.navbar-headingg {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.navbar-buttonss {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-buttonss .btnn {
+    margin: auto;
+    margin-left: 10px;
+    border-radius: 30px;
+    background-color: #777;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 60px;
+}
+
+
+.projects{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img18{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+}
